@@ -1,0 +1,229 @@
+{
+  "brand": {
+    "name": "AIMeD",
+    "tagline": "Advanced Intelligence & Multidimensional Engineering",
+    "platform": "AMIS"
+  },
+  "hero": {
+    "title": "Real\u2011world engineering of intelligent systems\u2014across digital and biological complexity",
+    "subtitle": "AIMeD builds next\u2011generation platforms and systems that help organizations design, simulate, operate, and scale complex ecosystems across industries\u2014powered by AMIS.",
+    "micro": "From lab\u2011to\u2011production systems and regulated enterprise workflows, AIMeD delivers trusted, scalable intelligence foundations for what comes next.",
+    "ctaPrimary": "Request a Demo",
+    "ctaSecondary": "Explore AMIS"
+  },
+  "highlights": [
+    "**Technology-agnostic foundation** (future-ready by design)",
+    "**Multidomain reuse** (one core platform, many vertical layers)",
+    "**Enterprise-grade security posture**",
+    "**Built for integration-first environments**",
+    "**Modeling + simulation + decision frameworks**",
+    "**Product + services execution for real deployments**"
+  ],
+  "strategicHorizontal": [
+    "**Data Platforms & Pipelines**",
+    "**Modeling & Simulation Frameworks**",
+    "**Decision & Orchestration Systems**",
+    "**Workflow & Automation Tools**",
+    "**Knowledge & Language Interfaces (LLM-ready, not LLM-dependent)**"
+  ],
+  "deepVertical": [
+    "**Life Sciences & Bio-Engineering**",
+    "**Banking & Financial Services**",
+    "**Education & Knowledge Systems**",
+    "**Enterprise IT & Cloud Platforms**",
+    "**Public Sector & Regulated Environments**"
+  ],
+  "solutions": [
+    {
+      "title": "Life Sciences & Bio-Engineering",
+      "usecases": [
+        "Molecular and systems-level modeling (domain-specific, simulation-driven workflows)",
+        "Bio-digital platform engineering for research-to-translation pipelines",
+        "Scientific data harmonization and knowledge discovery",
+        "Decision frameworks for complex experimental pipelines",
+        "Secure collaboration environments across institutions"
+      ],
+      "outcomes": [
+        "Faster research cycles",
+        "Better experimental traceability",
+        "Higher reproducibility and auditability",
+        "Reduced fragmentation between tools, teams, and data"
+      ],
+      "cta": "Explore Bio-Engineering Solutions"
+    },
+    {
+      "title": "Banking & Financial Services (BFSI)",
+      "usecases": [
+        "Risk modeling and decision orchestration platforms",
+        "Fraud and anomaly workflow systems (human-in-the-loop)",
+        "Secure customer/transaction intelligence pipelines",
+        "Policy-driven access control and audit-ready systems",
+        "Process automation and integration across legacy + modern stacks"
+      ],
+      "outcomes": [
+        "Faster decisions with better governance",
+        "Reduced operational friction",
+        "Stronger security and compliance posture"
+      ],
+      "cta": "Explore BFSI Solutions"
+    },
+    {
+      "title": "Education & Knowledge Systems",
+      "usecases": [
+        "Adaptive learning and assessment engines",
+        "Knowledge systems: curriculum intelligence, content orchestration",
+        "Simulation-driven training platforms",
+        "Institution-grade analytics with privacy protection",
+        "Research knowledge management platforms"
+      ],
+      "outcomes": [
+        "Higher learner engagement",
+        "Better personalization with responsible governance",
+        "Faster content and program iteration"
+      ],
+      "cta": "Explore Education Solutions"
+    },
+    {
+      "title": "Enterprise IT & Cloud Platforms",
+      "usecases": [
+        "Integration-first platform engineering (API + event-driven)",
+        "Cloud and hybrid workloads, environment segregation",
+        "Engineering productivity stacks (DevSecOps, SRE, FinOps)",
+        "Observability and reliability frameworks",
+        "Governance-driven data and access control platforms"
+      ],
+      "outcomes": [
+        "Faster engineering throughput",
+        "Reliable operations at scale",
+        "Lower long-term platform cost"
+      ],
+      "cta": "Explore Enterprise Solutions"
+    },
+    {
+      "title": "Public Sector & Regulated Environments",
+      "usecases": [
+        "Secure data exchange and governance platforms",
+        "Audit-ready workflow systems",
+        "Citizen and institutional intelligence layers",
+        "Compliance-first modernization of legacy workflows"
+      ],
+      "outcomes": [],
+      "cta": "Explore GovTech Solutions"
+    }
+  ],
+  "amis": {
+    "spotlightTitle": "AMIS \u2014 Advanced Multidomain Intelligence Systems",
+    "spotlightSubtitle": "One platform core. Many domain applications.",
+    "modules": [
+      {
+        "title": "AMIS Core",
+        "bullets": [
+          "Platform runtime foundations (tenancy, config, deployment patterns)",
+          "Domain layer composition (plug-in specialization)"
+        ]
+      },
+      {
+        "title": "AMIS Data Fabric",
+        "bullets": [
+          "Ingestion, harmonization, metadata mapping",
+          "Secure data access patterns and lineage"
+        ]
+      },
+      {
+        "title": "AMIS Modeling & Simulation",
+        "bullets": [
+          "Experiment pipelines, simulation orchestration",
+          "Scenario modeling for BFSI/Education/Enterprise"
+        ]
+      },
+      {
+        "title": "AMIS Decision Orchestration",
+        "bullets": [
+          "Policy-driven decision systems",
+          "Human-in-the-loop workflows"
+        ]
+      },
+      {
+        "title": "AMIS Knowledge Layer",
+        "bullets": [
+          "Knowledge graphs and semantic layers",
+          "Search + retrieval patterns (RAG-ready)"
+        ]
+      },
+      {
+        "title": "AMIS Security & Trust",
+        "bullets": [
+          "IAM integration patterns",
+          "MFA/SSO enforcement",
+          "Audit logs, monitoring, APM hooks"
+        ]
+      },
+      {
+        "title": "AMIS Integration Hub",
+        "bullets": [
+          "API gateway patterns, event bus patterns",
+          "Connectors for enterprise and partner ecosystems"
+        ]
+      },
+      {
+        "title": "AMIS Observability",
+        "bullets": [
+          "Logs, metrics, traces",
+          "SLO/SLA monitoring, reliability dashboards"
+        ]
+      }
+    ]
+  },
+  "trustBadges": [
+    "ISO 27001 (Target)",
+    "SOC 2 Type II (Target)",
+    "GDPR readiness",
+    "HIPAA readiness (if applicable)",
+    "Internal security controls mapping (for BFSI)"
+  ],
+  "problems": [
+    {
+      "title": "Eliminating fragmentation",
+      "text": "Silos across tools, teams, data, and environments slow execution. AIMeD unifies architectures and workflows using AMIS as the core platform layer."
+    },
+    {
+      "title": "Making advanced systems accessible",
+      "text": "Complex platforms often require high expertise and high cost. AIMeD delivers repeatable patterns with scalable deployment options."
+    },
+    {
+      "title": "Streamlining end-to-end workflows",
+      "text": "Disconnected workflows reduce speed and traceability. AIMeD enables automation, orchestration, and audit-ready operations."
+    },
+    {
+      "title": "Building for evolution",
+      "text": "Teams get locked into today\u2019s tools. AIMeD\u2019s technology-agnostic foundation keeps your platform adaptable. ---"
+    }
+  ],
+  "markets": [
+    {
+      "title": "Startups (Deep-tech / Bio / SaaS)",
+      "text": "Accelerate product engineering and platform readiness with AMIS patterns."
+    },
+    {
+      "title": "Mid-market enterprises",
+      "text": "Modernize platforms with governance-first intelligence layers."
+    },
+    {
+      "title": "Large enterprises (BFSI / regulated)",
+      "text": "Deploy audit-ready systems with secure integrations and observability."
+    },
+    {
+      "title": "Research institutions",
+      "text": "Build reproducible, traceable research-to-translation pipelines."
+    },
+    {
+      "title": "Public sector",
+      "text": "Enable secure, governed digital transformation."
+    }
+  ],
+  "footer": {
+    "copyright": "\u00a9 AIMeD Pvt. Ltd. All rights reserved.",
+    "email": "hello@aimed.ai",
+    "address": "Hyderabad, INDIA (placeholder)"
+  }
+}

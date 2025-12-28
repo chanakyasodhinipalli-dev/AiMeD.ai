@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Request a demo or talk to an expert." />
+  <title>Contact — AIMeD.ai</title>
+
+  <meta property="og:title" content="Contact — AIMeD.ai" />
+  <meta property="og:description" content="Request a demo or talk to an expert." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="../assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+<main>
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 pt-14">
+    <div class="text-sm text-white/60">Contact</div>
+    <h1 class="mt-2 text-4xl font-semibold">Request a demo / talk to an expert</h1>
+    <p class="mt-4 text-white/75 max-w-3xl">For GitHub Pages, this form is UI‑ready. Connect it to Formspree/Netlify/your backend later.</p>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 py-12 grid lg:grid-cols-12 gap-6">
+    <div class="lg:col-span-7 glass rounded-3xl p-8" id="demo">
+      <div class="text-sm text-white/60">Request a Demo</div>
+      <form class="mt-6 grid gap-4" action="#" method="post">
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="grid gap-2 text-sm">First name <input class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="firstName" required /></label>
+          <label class="grid gap-2 text-sm">Last name <input class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="lastName" required /></label>
+        </div>
+        <label class="grid gap-2 text-sm">Work email <input type="email" class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="email" required /></label>
+        <label class="grid gap-2 text-sm">Phone <input class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="phone" /></label>
+        <label class="grid gap-2 text-sm">Company / Organization <input class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="company" /></label>
+
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="grid gap-2 text-sm">Industry
+            <select class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="industry">
+              <option>Life Sciences</option><option>BFSI</option><option>Education</option><option>Enterprise IT</option><option>Public Sector</option><option>Other</option>
+            </select>
+          </label>
+          <label class="grid gap-2 text-sm">Timeline
+            <select class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="timeline">
+              <option>0–3 months</option><option>3–6 months</option><option>6–12 months</option><option>&gt; 12 months</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="grid gap-2 text-sm">What are you trying to build?
+          <textarea class="px-4 py-3 rounded-xl bg-black/30 border border-white/10 focus-ring" name="message" rows="4"></textarea>
+        </label>
+
+        <label class="inline-flex items-center gap-2 text-sm text-white/75">
+          <input type="checkbox" class="accent-cyan-400" name="regulated" />
+          Do you need regulated compliance support?
+        </label>
+
+        <button class="mt-2 px-5 py-3 rounded-xl bg-white text-black font-semibold hover:bg-white/90 focus-ring" type="submit">Submit</button>
+        <div class="text-xs text-white/55">By submitting, you agree to be contacted about AIMeD/AMIS.</div>
+      </form>
+    </div>
+
+    <div class="lg:col-span-5 grid gap-4" id="talk">
+      <div class="glass rounded-3xl p-8">
+        <div class="text-sm text-white/60">Talk to an Expert</div>
+        <div class="mt-3 text-white/75">Email: <a class="text-white hover:underline" href="mailto:hello@aimed.ai">hello@aimed.ai</a> (placeholder)</div>
+        <div class="mt-6 text-sm text-white/70">What you’ll get:</div>
+        <ul class="mt-3 text-sm text-white/80 grid gap-2">
+          <li class="flex gap-2"><span class="text-emerald-300">•</span><span>30‑minute discovery call</span></li>
+          <li class="flex gap-2"><span class="text-emerald-300">•</span><span>Architecture mapping for your domain</span></li>
+          <li class="flex gap-2"><span class="text-emerald-300">•</span><span>Pilot → scale blueprint</span></li>
+          <li class="flex gap-2"><span class="text-emerald-300">•</span><span>Security + governance checklist</span></li>
+        </ul>
+      </div>
+
+      <div class="glass rounded-3xl p-8">
+        <div class="text-sm text-white/60">Brand settings</div>
+        <div class="mt-3 text-sm text-white/70">Edit <span class="kbd">docs/assets/content.json</span> to change hero copy, AMIS module cards, footer email/address, etc.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <div id="site-footer"></div>
+  <script src="../assets/site.js" defer></script>
+</body>
+</html>

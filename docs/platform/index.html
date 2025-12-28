@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="AMIS is the platform core behind AIMeD’s multidomain deployments." />
+  <title>AMIS Platform — AIMeD.ai</title>
+
+  <meta property="og:title" content="AMIS Platform — AIMeD.ai" />
+  <meta property="og:description" content="AMIS is the platform core behind AIMeD’s multidomain deployments." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="../assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+<main>
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 pt-14">
+    <div class="text-sm text-white/60">Platform</div>
+    <h1 class="mt-2 text-4xl font-semibold">AMIS Platform</h1>
+    <p class="mt-4 text-white/75 max-w-3xl">AMIS is the platform core behind AIMeD’s multidomain deployments—governance, auditability, reliability, and domain workflows (LLM‑ready, not LLM‑dependent).</p>
+  </section>
+
+  <div id="platform-dynamic"></div>
+
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 py-14">
+    <div class="grid lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-6 glass rounded-3xl p-8">
+        <div class="text-sm text-white/60">Architecture (plain English)</div>
+        <h2 class="mt-2 text-2xl font-semibold">How AMIS is layered</h2>
+        <ol class="mt-5 text-sm text-white/80 grid gap-3 list-decimal list-inside">
+          <li><span class="font-semibold">Core Runtime</span> — tenant isolation, config management, runtime policies.</li>
+          <li><span class="font-semibold">Domain Layer</span> — plug‑in modules representing domain workflows & data model.</li>
+          <li><span class="font-semibold">Integration Layer</span> — APIs, events, connectors.</li>
+          <li><span class="font-semibold">Trust Layer</span> — identity, policy, audit, monitoring.</li>
+          <li><span class="font-semibold">Experience Layer</span> — dashboards, portals, developer tools, knowledge interfaces.</li>
+        </ol>
+      </div>
+
+      <div class="lg:col-span-6 glass rounded-3xl p-8">
+        <div class="text-sm text-white/60">AMIS vs general‑purpose LLMs</div>
+        <h2 class="mt-2 text-2xl font-semibold">Platform first</h2>
+        <div class="mt-5 grid gap-4 text-sm text-white/80">
+          <div class="glass rounded-2xl p-5">
+            <div class="font-semibold">General‑purpose LLMs</div>
+            <ul class="mt-2 grid gap-2">
+              <li>Great at language and summarization</li>
+              <li>Weak at governed, repeatable platform operations</li>
+              <li>Not a substitute for system architecture</li>
+            </ul>
+          </div>
+          <div class="glass rounded-2xl p-5">
+            <div class="font-semibold">AMIS</div>
+            <ul class="mt-2 grid gap-2">
+              <li>A platform that can integrate LLM capabilities</li>
+              <li>Built for governance, audit, reliability, and domain workflows</li>
+              <li>Supports “LLM‑enabled” experiences without becoming LLM‑dependent</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <div id="site-footer"></div>
+  <script src="../assets/site.js" defer></script>
+</body>
+</html>
